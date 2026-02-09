@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: IDroid;
+    src: url('idroid.otf') format('opentype');
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(128, 128, 128, 0.473);
+}
+
+h1{
+    margin-top: 0;
+    padding-top: 27px;
+    font-family: 'IDroid', verdana, sans-serif;
+    font-weight: bolder;
+    
+}
+/*chat gpt ajudou daqui pra cima */
+
+.center{
+    text-align: center;
+}
+
+.white{
+    color: white;
+}
+
+.arial{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hdofooter{
+    background-color: green;
+    height: 40px;
+}
+
+.paragrafo{
+    text-indent: 30px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    margin-left: 42px;
+    font-weight: bold;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+h2{
+    font-family: 'IDroid', verdana, sans-serif ;
+}
+
+header{
+    background-image: linear-gradient(to top, rgb(0, 80, 0), rgb(181, 255, 181)) ;
+}
+
+main{
+    margin-left: 10px ;
+    background-color: white;
+    padding: 20px;
+    text-align: justify;
+    width: 800px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    /*max-width: 800px;
+    width:100%*/
+
+}
+
+footer{
+    
+        margin-top: 10px;
+    background-color: white;
+}
+
+
+iframe{
+    display: block;
+    margin:  auto;
+    padding: 0;
+    background-color: green;
+}
+
+div#video{
+    background-color: green;
+    padding: 20px 0px;
+    width: 800px;
+}
+
+picture img{
+    display: block;
+    margin: auto;
+}
+
+
+h3{
+    padding: 10px;
+    color: white;
+    background-color: green;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 0;
+
+}
+
+ul{
+    list-style-type: '✔';
+}
+
+
+
+.div4{
+    background-color: rgba(255, 255, 255, 0.473) ;
+    border-radius: 0px 0px 10px 10px ;
+    padding: 10px;
+}
+
+.div5{
+    background-color: rgba(128, 128, 128, 0.473);
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+}
+
+.listas{
+    display: flex;
+
+    gap: 40px;
+}
+
+.linkdofinal{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.linkdofinal:hover{
+    text-decoration: underline;
+}
+
+#final{
+    color: white;
+    background-color: green ;
+    margin: 0;
+    padding: 0;
+    ;
+}
