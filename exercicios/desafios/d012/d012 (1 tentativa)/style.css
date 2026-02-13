@@ -8,8 +8,6 @@
 *{
     padding: 0px;
     margin: 0px;
-    max-width: 1800px;
-    min-width: 300px;
 }
 
 body{
@@ -17,7 +15,8 @@ body{
     background-position: right top;
     background-attachment: fixed;
     background-size: cover;
-    
+    max-width: 1800px;
+    min-width: 320px;
 }
 
 header{
@@ -51,6 +50,11 @@ header a:hover{
     text-decoration: underline;
 }
 
+section{
+    max-width: 1800px;
+    min-width: 320px;
+}
+
 section.normal{
     background-color: white;
     padding: 50px 0px 50px 40px;
@@ -61,12 +65,14 @@ section.normal{
 section.transparente{
     color: white;
     /*padding: 50px 0px 50px 40px;*/
-    margin: 50px 0px 50px 40px;
-    padding: 20px;
+    margin: 50px 0px 50px 20px;
+    padding: 18px 5px;
     font-family: Sriracha, helvetica, sans-serif;
     font-size: 1.8em;
     background-color: rgba(0, 0, 0, 0.267);
     width: 400px;
+    max-width: 320px;
+    min-width: 320px;
 } 
 
 footer{
