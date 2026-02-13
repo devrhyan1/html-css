@@ -66,14 +66,12 @@ section.transparente{
     color: white;
     /*padding: 50px 0px 50px 40px;*/
     margin: 50px 0px 50px 20px;
-    padding: 18px 5px;
+    padding: 18px 0px 18px 5px;
     font-family: Sriracha, helvetica, sans-serif;
     font-size: 1.8em;
     background-color: rgba(0, 0, 0, 0.267);
-    width: 400px;
-    max-width: 320px;
-    min-width: 300px;
-} 
+    width: 300px;
+}
 
 footer{
     background-color: black;
