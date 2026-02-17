@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+
+
+:root{
+    --fonte1: Arial, Helvetica, sans-serif;
+    --fonte2: "Fascinate Inline", system-ui;
+    --co1: #A6A5A4;
+    --co2: #737272;
+    --co3: #403F3D;
+    --co4: #0D0504;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: var(--co1);
+}
+
+header{
+    background-color: var(--co3);
+    text-align: center;
+    
+}
+
+header h1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 3vw;
+    font-family: var(--fonte2);
+    color: white;
+}
+
+main > p > a{
+    text-decoration: none;
+    color: white;
+    font-family: var(--fonte1);
+}
+
+main p{
+    display: inline-block;
+}
+
+p.botões{
+    background-color: var(--co3);
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.botões:hover{
+    background-color: var(--co2);
+    transition: 0.3s;
+}
+
+main div{
+    background-color: var(--co3);
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+main div:hover{
+    background-color: var(--co2);
+    transition: 0.3s;
+}
+
+div a{
+    color:white;
+    text-decoration: none;
+    font-family: var(--fonte1);
+}
