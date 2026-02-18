@@ -30,7 +30,7 @@ header{
 header h1{
     padding-top: 50px;
     padding-bottom: 50px;
-    font-size: 3vw;
+    font-size: 5vw;
     font-family: var(--fonte2);
     color: white;
 }
